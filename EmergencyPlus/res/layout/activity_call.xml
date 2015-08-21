@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Greyish"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="269dp"
+        android:layout_height="82dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:background="@color/LightGrey"
+        android:text="Make Emergency Call"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/phoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Type a number to call"
+        android:inputType="phone"
+        android:textColorHint="@color/LightGrey" />
+
+    <Button
+        android:id="@+id/dcall"
+        android:layout_width="274dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/LightGrey"
+        android:text="Call typed number"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
